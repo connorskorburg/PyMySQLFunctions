@@ -7,10 +7,10 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-  print(getRow('users', '989HHY'))
-  print(updateField('companies', '456DFG', 'name', 'Google'))
-  print(deleteRow('users', '4566GGF'))
-  print(getMyFavorites('favoriteStudents', '34324'))
+  # print(getRow('users', '989HHY'))
+  # print(updateField('companies', '456DFG', 'name', 'Google'))
+  # print(deleteRow('users', '4566GGF'))
+  # print(getMyFavorites('favoriteStudents', '34324'))
 
 
   return render_template('index.html')
