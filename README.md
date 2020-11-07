@@ -1,6 +1,8 @@
 (for Mac/Linux)
 
 1. Set Up MySQL Workbench and make sure you have a server initialized connection to MySQL
+  server: https://dev.mysql.com/downloads/mysql/
+  workbench: https://dev.mysql.com/downloads/workbench/
 2. Create a new virtual environment (python3 -m venv venv)
 3. Activate the Environment (source venv/bin/activate)
 4. Install Flask and PyMySQL with PIP (pip3 install flask pymysql)
